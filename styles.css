@@ -1,15 +1,19 @@
-body {
+body{
    background-color: black;
+}
+
+header {
+   background-color: white;
 }
 
 
 button {
-   background-color: black;
+   background-color: white;
    border: none;
    border-radius: 5px;
    font-family: Verdana, Geneva, Tahoma, sans-serif;
    font-size: large;
-   color: white;
+   color: black;
    padding: 10px;
    margin: 2px;
    transition-duration: .4s;
