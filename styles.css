@@ -1,15 +1,29 @@
-/* button style */
-button{
-   background-color: black border: none;
-   color: white;
-   padding: 15px 32px;
-   text-align: center;
-   text-decoration: none;
-   display: inline-block;
-   font-size: 16px;
-   margin: 4px 2px;
-   cursor: pointer;
-   position: absolute;
+button {
+   border: 1px solid blueviolet;
+   border-radius: 5px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: large;
+   padding: 10px;
+   margin: 2px;
+   transition-duration: .4s;
+   position: relative;
    top: 0;
    left: 0;
+}
+
+.container-navigation {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: row;
+   justify-content: flex-start
+}
+
+ul {
+   list-style-type: none;
+   padding: 5px;
+}
+
+.push {
+   margin-left: auto;
+
 }
