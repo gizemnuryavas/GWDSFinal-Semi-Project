@@ -40,3 +40,23 @@ ul {
    margin-left: 800px;
 
 }
+
+.images {
+width: 290px;
+height: 350px;
+padding: 4px;
+}
+
+.pushimage {
+   margin-left: 15px;
+   width: 290px;
+   height: 350px;
+   padding: 4px;
+}
+
+.pushvideo {
+   margin-left: 15px;
+   width: 600px;
+   height: 500px;
+
+}
