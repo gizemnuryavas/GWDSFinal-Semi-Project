@@ -1,5 +1,5 @@
-body{
-background-image: linear-gradient(aqua,pink, orange);
+body {
+   background-image: linear-gradient(aqua, pink, orange);
 
 }
 
@@ -18,7 +18,7 @@ button {
    padding: 10px;
    margin: 2px;
    transition-duration: .4s;
-  
+
 }
 
 .container-navigation {
@@ -39,9 +39,9 @@ ul {
 }
 
 .images {
-width: 290px;
-height: 350px;
-padding: 4px;
+   width: 290px;
+   height: 350px;
+   padding: 4px;
 }
 
 .pushimage {
@@ -60,24 +60,60 @@ padding: 4px;
 
 .images2 {
    padding: 4px;
-   }
+}
 
 
 .pushimage2 {
    margin-left: 22px;
    padding: 4px;
-   }
-   
-   .pushimage3{
-margin-left: 380px;
-   }
+}
 
-   .images4 {
-      padding: 50px;
-      }
-   
-   
-   .pushimage4 {
-      margin-left: 150px;
-      padding: 50px;
-      }
+.pushimage3 {
+   margin-left: 380px;
+}
+
+.images4 {
+   padding: 50px;
+}
+
+
+.pushimage4 {
+   margin-left: 150px;
+   padding: 50px;
+}
+
+
+
+/* typo */
+
+.container {
+
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+
+}
+
+.cake-item {
+   width: 100mm;
+   height: 100mm;
+   padding: 10px;
+}
+
+.cake-group {
+   width: 500px;
+
+}
+
+.cake-text {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: left;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+}
+
+/*.section-one {
+   background-color: darkslateblue;
+}*/
+
