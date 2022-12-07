@@ -90,20 +90,19 @@ header {
    
 }
 
-/*.section-one {
-   background-color: darkslateblue;
-}*/
 
-/* Add a black background color to the top navigation */
+
+/*navigation*/
 .topnav {
-   background-color: #333;
+   background-color: white;
    overflow: hidden;
+   border: 1px solid black;
  }
  
  /* Style the links inside the navigation bar */
  .topnav a {
    float: left;
-   color: #f2f2f2;
+   color: black;
    text-align: center;
    padding: 14px 16px;
    text-decoration: none;
@@ -116,8 +115,7 @@ header {
    color: black;
  }
  
- /* Add a color to the active/current link */
  .topnav a.active {
    background-color: #04AA6D;
-   color: white;
+   color: black;
  }
