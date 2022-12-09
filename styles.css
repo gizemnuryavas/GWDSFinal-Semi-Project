@@ -144,16 +144,6 @@ video {
    color: black;
  }
 
- .typo-column {
-   float: left;
-   width: 25%;
-   padding: 5px;
- }
- 
- .typo-posters {
-   height: 80mm;
-   width: 80mm;
- }
 
 .cake-text {
    font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -200,5 +190,6 @@ color: white;
    .columncoding {
       float: left;
       width: 50%;
-      padding: 5px;
+      padding: 15px;
+      text-align:  center;
     }
