@@ -103,7 +103,7 @@ video {
    height: 190mm;
 }
 
-p {
+.index {
    position: absolute;
    text-align: center;
    font-size: 40px;
@@ -169,3 +169,46 @@ p {
 .img-hover-zoom:hover img {
   transform: scale(1.5);
 }
+
+
+.cake-text {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   color: white;
+   font-size: 15px;
+   font-weight: bold;
+   }
+   
+   .caption {
+   font-size: 15px;
+   font-style: italic;
+   }
+   
+   .container {
+       display: flex;
+       justify-content: space-evenly;
+       flex-wrap: wrap;
+   
+   }
+   
+   .cake-item {
+   width: 100mm;
+   height: 100mm;
+   padding: 0px;
+   }
+   
+   .cake-group {
+   width: 100mm;
+   
+   }
+
+   .typo-caption {
+text-align: center;
+color: white;
+
+   }
+
+   .typo-caption-text {
+text-align: center;
+color: white;
+   }
