@@ -143,3 +143,14 @@ p {
    font-size: 35px;
    color: black;
  }
+
+ .typo-column {
+   float: left;
+   width: 25%;
+   padding: 5px;
+ }
+ 
+ .typo-posters {
+   height: 80mm;
+   width: 80mm;
+ }
