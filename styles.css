@@ -213,3 +213,10 @@ color: white;
    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
  }
+
+ .coding-text {
+   text-align: center;
+   color: white;
+   text-shadow: #333;
+font-size: 20px;
+ }
