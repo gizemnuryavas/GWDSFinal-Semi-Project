@@ -196,3 +196,9 @@ color: white;
 text-align: center;
 color: white;
    }
+
+   .columncoding {
+      float: left;
+      width: 50%;
+      padding: 5px;
+    }
