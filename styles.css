@@ -239,3 +239,19 @@ footer {
    font-size: 20px;
    padding: 100px;
 }
+
+.carp-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+
+ .carp-image {
+   flex-basis: 40%;
+   padding: 30px;
+ }
+ .carp-text {
+   font-size: 10px;
+   color: white;
+   padding-left: 20px;
+ }
