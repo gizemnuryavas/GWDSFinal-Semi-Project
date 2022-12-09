@@ -1,5 +1,5 @@
 body {
-   background-image: 'images/one.jpg'
+   background-image: url('images/one.jpg');
 
 }
 
@@ -134,38 +134,45 @@ li a:hover:not(.active) {
  
  /* Header/Blog Title */
  .header {
-   padding: 30px;
+   padding: 0px;
    font-size: 40px;
    text-align: center;
-   background: white;
+   background: black;
+}
+
+ /* polo */
+
+ figure {
+   background: #ffffff;
+   display: inline-block;
+   margin: 55px 75px 30px;
+   padding: 15px 15px 30px;
+   text-align: center;
+   text-decoration: none;
+   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+   -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+   box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+   -webkit-transition: all .20s linear;
+   -moz-transition: all .20s linear;
+   transition: all .20s linear;
+   cursor: pointer;
+   position: relative;
  }
- 
- 
- /* Fake image */
- .fakeimg {
-   background-color: #aaa;
-   width: 100%;
-   padding: 20px;
+ figcaption {
+   color: #333;
+   font-size: 25px;
+   position: relative;
+   top: 15px;
  }
- 
- /* Add a card effect for articles */
- .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
+ figure img {
+   display: block;
+   width: 250px;
  }
- 
- /* Clear floats after the columns */
- .row:after {
-   content: "";
-   display: table;
-   clear: both;
- }
- 
- /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
- @media screen and (max-width: 800px) {
-   .leftcolumn, .rightcolumn {   
-     width: 100%;
-     padding: 0;
-   }
+ figure:hover {
+   -webkit-transform: scale(1.2);
+   -moz-transform: scale(1.2);
+   transform: scale(1.2);
+   -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+   -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+   box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
  }
