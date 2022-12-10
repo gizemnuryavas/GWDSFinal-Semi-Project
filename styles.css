@@ -150,14 +150,6 @@ footer {
 }
 
 
-.cake-text {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
-   text-align: center;
-   color: white;
-   font-size: 15px;
-   font-weight: bold;
-}
-
 .caption {
    font-size: 15px;
    font-style: italic;
@@ -254,4 +246,8 @@ footer {
    font-size: 10px;
    color: white;
    padding-left: 20px;
+ }
+ 
+ body {
+   font-family: 'Poppins', sans-serif;
  }
