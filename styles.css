@@ -167,13 +167,6 @@ footer {
    color: white;
 }
 
-.columncoding {
-   float: left;
-   width: 50%;
-   padding: 15px;
-   text-align: center;
-}
-
 
 .zoom {
    transition: transform .2s;
