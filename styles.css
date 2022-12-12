@@ -156,24 +156,6 @@ footer {
    font-style: italic;
 }
 
-.container {
-   display: flex;
-   justify-content: space-evenly;
-   flex-wrap: wrap;
-
-}
-
-.cake-item {
-   width: 100mm;
-   height: 100mm;
-   padding: 0px;
-}
-
-.cake-group {
-   width: 100mm;
-
-}
-
 .typo-caption {
    text-align: center;
    color: white;
