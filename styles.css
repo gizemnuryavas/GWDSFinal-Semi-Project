@@ -184,10 +184,9 @@ footer {
    transform: scale(1.1); }
 
 
-.coding-text {
+.alttext {
    text-align: center;
    color: white;
-   text-shadow: #333;
    font-size: 20px;
    padding: 25px;
 }
@@ -196,12 +195,6 @@ footer {
    margin-left: auto;
    margin-right: auto;
   
-}
-.rep-text{
-   text-align: center;
-   color: white;
-   font-size: 20px;
-   padding: 100px;
 }
 
 .carp-container {
