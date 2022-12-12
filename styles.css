@@ -161,12 +161,15 @@ footer {
 .headline {
    text-align: center;
    color: white;
+   font-size: 35px;
+
 
 }
 
 .underheadline {
    text-align: center;
    color: white;
+   font-size: 20px;
 }
 
 
