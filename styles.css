@@ -1,5 +1,11 @@
 body {
-   background-image: url('images/one.jpg');
+   /*background-image: url('images/one.jpg');*/
+   background: #41295a;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #2F0743, #41295a);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #2F0743, #41295a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   
+
 
 }
 
@@ -36,7 +42,7 @@ li a:hover:not(.active) {
 }
 
 li a {
-   color: black;
+   color: #41295a;
    text-decoration: none;
 }
 
@@ -72,7 +78,7 @@ figure {
 }
 
 figcaption {
-   color: #333;
+   color: #41295a;
    font-size: 25px;
    position: relative;
    top: 15px;
@@ -138,7 +144,7 @@ footer {
    background-color: white;
    padding: 10px;
    text-align: center;
-   color: black;
+   color: #41295a;
 
 }
 
@@ -147,7 +153,7 @@ footer {
    padding: 30px;
    text-align: center;
    font-size: 35px;
-   color: black;
+   color: #41295a;
 }
 
 
