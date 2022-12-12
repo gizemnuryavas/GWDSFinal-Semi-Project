@@ -125,14 +125,10 @@ video {
    transform: translate(-50%, -50%);
 }
 
-.mainmenu {
-   display: flex;
-}
+
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
-
-
 float: left;
    width: 50%;
    padding: 25px;
