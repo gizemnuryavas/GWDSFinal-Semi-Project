@@ -207,7 +207,8 @@ footer {
 
  .carp-image {
    flex-basis: 40%;
-   padding: 30px;
+   padding: 10px;
+   text-align: center;
  }
  .carp-text {
    font-size: 10px;
